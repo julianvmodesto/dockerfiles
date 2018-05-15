@@ -8,3 +8,5 @@ RUN apk add --no-cache \
 	git \
 	jq \
 	openssh-client
+
+ENTRYPOINT ["jq"]
